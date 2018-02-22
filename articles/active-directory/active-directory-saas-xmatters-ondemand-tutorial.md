@@ -111,19 +111,17 @@ In this section, you enable Azure AD single sign-on in the Azure portal and conf
 	a. In the **Identifier** textbox, type a URL using the following pattern:	
 	| |
 	|--|
-	| `https://<companyname>.au1.xmatters.com.au/`|
-	| `https://<companyname>.cs1.xmatters.com/`|
-	| `https://<companyname>.xmatters.com/`|
-	| `https://www.xmatters.com`|
-	| `https://<companyname>.xmatters.com.au/`|
+	| `https://<companyname>.xmatters.com`|
+	| `https://<companyname>.au1.xmatters.com.au`|
+	| `https://<companyname>.cs1.xmatters.com`|
+	| `https://<companyname>.xmatters.com.au`|
 
 	b. In the **Reply URL** textbox, type a URL using the following pattern:
 	| |
 	|--|
-	| `https://<companyname>.au1.xmatters.com.au`|
-	| `https://<companyname>.xmatters.com/sp/<instancename>`|
-	| `https://<companyname>.cs1.xmatters.com/sp/<instancename>`|
-	| `https://<companyname>.au1.xmatters.com.au/<instancename>`|
+	| `https://<companyname>.xmatters.com/sp/SSO.saml2`|
+	| `https://<companyname>.cs1.xmatters.com/sp/SSO.saml2`|
+	| `https://<companyname>.au1.xmatters.com.au/sp/SSO.saml2`|
 
 	> [!NOTE] 
 	> These values are not real. Update these values with the actual Identifier and Reply URL. Contact [xMatters OnDemand support team](https://www.xmatters.com/company/contact-us/) to get these values.
